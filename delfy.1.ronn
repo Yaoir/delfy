@@ -1,0 +1,19 @@
+delfy(1) -- oracle
+==================
+
+## SYNOPSIS
+
+`delfy`
+
+## DESCRIPTION
+
+**delfy** is a divination program.
+
+## SEE ALSO
+
+fortune(1), ching(1) (Unix, Seventh Edition)
+
+## AUTHOR
+
+Jay Ts
+(http://jayts.com)
