@@ -7,11 +7,43 @@ delfy(6) -- oracle
 
 ## DESCRIPTION
 
-**delfy** is a divination program.
+**delfy** is a divination tool that may be used to amplify or clarify intuition.
+
+**delfy** prints an **If** prompt and waits for the user to fill in an _if clause_ of a sentence, followed by a newline. **delfy** then fills in the _then clause_ to complete a sentence. As an example, if the user were to type "I think divination is nonsense", **delfy** might respond as follows:
+
+    If I think divination is nonsense
+    then roses are red, violets are blue.
+
+To end the program, type an Enter (Return) key or a Control-D at the **If** prompt.
+
+## FILES
+
+**delphy** searches for its data file **delfy.responses** in the following directories, in the order listed:
+
+```
+/usr/share/games/delfy
+/usr/share/delfy
+/usr/local/share/delfy
+the current working directory
+$HOME/.delfy
+```
 
 ## SEE ALSO
 
+    If you want to learn more about divination
+    then gather an immense collection of inexplicable bits of news.
+
 fortune(1), ching(1) from Seventh Edition UNIX
+
+## DIAGNOSTICS
+
+    If you want error messages
+    then it would be bad.  Real bad.  Quite ironic, too.
+
+## BUGS
+
+    If you don't like delfy
+    then the camp will break up.
 
 ## AUTHOR
 

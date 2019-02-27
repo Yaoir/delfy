@@ -83,7 +83,7 @@ func main() {
 		s, err := stdin.ReadString('\n')
 		if len(s) < 1 || (len(s) == 1 && s[0] == '\n') || err == io.EOF { break; }
 		if err != nil { err_exit("cannot read from data file") }
-		fmt.Printf("Then %s",then[randomgen.Int() % len(then)])
+		fmt.Printf("then %s",then[randomgen.Int() % len(then)])
 		fmt.Printf("--\n")
 	}
 }
