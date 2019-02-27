@@ -15,7 +15,7 @@ delfy: delfy.go
 # Manual Page
 
 man: delfy.1.ronn
-	@ronn --roff --manual="User Commands" --organization="Jay Ts" --date="$(RELDATE)" delfy.1.ronn >/dev/null 2>&1
+	@ronn --roff --manual="UNIX Programmer's Manual" --organization="Jay Ts" --date="$(RELDATE)" delfy.1.ronn >/dev/null 2>&1
 	@gzip -f delfy.1
 	@mv delfy.1.gz man1
 	@man -l man1/delfy.1.gz
@@ -33,7 +33,7 @@ clean:
 	@rm -f delfy
 
 backup back bak:
-	@cp -a delfy.lib delfy.1.ronn *.go man1 Makefile push README.md TODO .bak
+	@cp -a delfy.responses* delfy.1.ronn *.go man1 Makefile push README.md TODO .bak
 
 wc count:
 	@wc -l delfy.go

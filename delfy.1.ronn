@@ -1,4 +1,4 @@
-delfy(1) -- oracle
+delfy(6) -- oracle
 ==================
 
 ## SYNOPSIS
@@ -11,7 +11,7 @@ delfy(1) -- oracle
 
 ## SEE ALSO
 
-fortune(1), ching(1) (Unix, Seventh Edition)
+fortune(1), ching(1) from Seventh Edition UNIX
 
 ## AUTHOR
 
