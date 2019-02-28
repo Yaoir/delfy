@@ -83,7 +83,7 @@ $ sudo make installman
 
 ## Credits
 
-**delfy** is a cheap workalike of a program called **laroec** written around 1997 by Ben Osheroff. Ben and his girlfriend encountered a similar program in operation in an exhibit at the Exploratorium in San Francisco, and wrote **laroec** to mimic it.
+**delfy** is a feature-reduced workalike of a program called **laroec** written around 1997 by Ben Osheroff. Ben and his girlfriend encountered a similar program in operation in an exhibit at the Exploratorium in San Francisco, and wrote **laroec** to mimic it.
 
 **laroec** has a curses-based full-screen interface and a "Comes from" mode. I hardly ever used either, so I did not implement them in **delfy**.
 
