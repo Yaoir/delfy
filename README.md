@@ -83,11 +83,11 @@ $ sudo make installman
 
 ## Credits
 
-**delfy** is a cheap copy of a program called **laroec** written around 1997 by Ben Osheroff. Ben and his girlfriend encountered a similar program in operation in an exhibit at the Exploratorium in San Francisco, and wrote **laroec** to mimic it.
+**delfy** is a cheap workalike of a program called **laroec** written around 1997 by Ben Osheroff. Ben and his girlfriend encountered a similar program in operation in an exhibit at the Exploratorium in San Francisco, and wrote **laroec** to mimic it.
 
-**laroec** has a curses-based full screen interface and a "Comes from" mode. I hardly ever used either, so I did not implement them in **delfy**.
+**laroec** has a curses-based full-screen interface and a "Comes from" mode. I hardly ever used either, so I did not implement them in **delfy**.
 
-The delfy.responses data file included with **delfy** is a slightly-edited copy of the one included with **laroec**. Thanks go to Ben for giving me permission to include it. Creating my own would have taken more time than I'm willing to spend on this right now.
+The `delfy.responses` data file included with **delfy** is a slightly-edited copy of the one included with **laroec**. Thanks go to Ben for giving me permission to include it. Creating my own would have taken more time than I'm willing to spend on this right now.
 
 ## Manual Page
 
